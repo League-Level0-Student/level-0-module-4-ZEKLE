@@ -23,11 +23,14 @@ public class ChangeCalculator {
 		int dime = Integer.parseInt(dimes);
 		// Ask the user how many quarters they have, and convert their answer
 		String quarters = JOptionPane.showInputDialog(null, "how many quarters do you have?");
-		int 
+		int quarter = Integer.parseInt(quarters);
 		// Calculate how much money the user has and save it in a double variable 
+		double nick = nickle*0.05;
+		double dim = dime*0.10;
+		double quart = quarter*0.25;
 		
 		// Tell the user how much money they have
-
+		JOptionPane.showMessageDialog(null, "$" + (nick + dim + quart)); 
 	}
 }
 
