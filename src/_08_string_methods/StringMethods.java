@@ -30,8 +30,8 @@ public class StringMethods {
 		//    EXAMPLE: if your string is "abc" and you are searching 
 		//             for char 'b', then print "b is at index 1"
 		for (int i = 0; i < abc.length(); i++) {
-			if (abc == '') {
-				
+			if (abc.charAt(i) == 'd') {
+				JOptionPane.showMessageDialog(null, "D is at index " + i );
 			}
 		}
 		
